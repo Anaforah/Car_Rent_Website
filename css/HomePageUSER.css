@@ -1,0 +1,73 @@
+/* Títulos */
+.strong {
+    color: #1E589E;
+    margin: auto 0 -3px 0;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.especificacoes1{
+    display: flex;
+}
+
+.saldo{
+    padding-right: 10px;
+    margin: auto 0 0 0;
+    font-size: 24px;
+}
+
+/* Estilo uniforme para inputs e selects */
+select.form-control, .form-control {
+    display: block;
+    width: 150px; /* Define uma largura fixa para todos */
+    height: 40px; /* Uniformiza a altura */
+    padding: 6px 12px; /* Espaçamento interno */
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* Estilo do formulário em linha */
+form.form-inline {
+    display: flex;
+    gap: 10px; /* Espaço entre os elementos */
+    align-items: center; /* Centraliza verticalmente */
+    flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
+}
+
+/* Campos de formulário em linha */
+.form-inline .form-control {
+    width: auto;
+    flex: 1 1 auto;
+    min-width: 150px; /* Largura mínima */
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Estilo do botão */
+form.form-inline .btn, #idb {
+    all: unset; /* Remove todos os estilos padrão */
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 30px; /* Espaçamento interno */
+    background-color: #1E589E;
+    border-radius: 15px; /* Bordas arredondadas */
+    color: #E6E6E6; /* Cor do texto */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25); /* Sombra */
+    cursor: pointer; /* Mostra o cursor de clique */
+    text-align: center; /* Centraliza o texto */
+    margin-top: auto;
+}
+
+.saldofiltro_container{
+    width:95%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

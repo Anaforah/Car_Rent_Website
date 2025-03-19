@@ -1,0 +1,80 @@
+body{
+    background-color: #FBFBFB;
+}
+
+.Nav_Title{
+    font-weight: 400;
+    font-size: 36px;
+    margin:2%;
+}
+
+.Nav-Container{
+    margin-left:2%;
+    margin-right:2%;
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.Nav-Buttons{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.carro_container {
+    background-color: #C0CAE3;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column; /* Empilha os itens em coluna */
+    justify-items: center;
+    align-items: center;
+    border-radius: 27px;
+    padding: 10px; /* Para espaçamento interno */
+    box-sizing: border-box; /* Garante que padding não afeta a largura */
+    margin:2%;
+}
+
+.carro_container>li{
+    display:block;
+}
+
+.carro_container img {
+    display: block; /* Garante que a imagem ocupe toda a largura disponível */
+    margin-bottom: 10px; /* Adiciona um pequeno espaçamento inferior */
+}
+
+.carro_container strong {
+    display: inline; /* Cada item ficará em uma nova linha */
+}
+
+.Lista_Carros {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,
+    minmax(300px, 1fr));
+    gap: 20px; /* Espaço entre os itens */
+    width: 95%; /* Ocupa 90% da largura */
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding:0;
+}
+
+.Botao{
+    text-decoration: none;
+    width:fit-content;
+    height:40%;
+    padding:15px;
+    background-color: #1E589E;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.Botao_Contentor{
+    width:95%;
+    height:fit-content;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}

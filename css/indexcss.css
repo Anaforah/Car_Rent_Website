@@ -1,0 +1,47 @@
+body {
+    background-color: #1E589E;
+    height: 100vh; /* Altura total da tela */
+}
+
+.Title{
+    font-weight: 500;
+    font-size: 50px;
+    margin:5%;
+}
+
+.toggle-btn1, .toggle-btn2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.Principal_Container>section{
+    width:100%;
+
+}
+
+.Formulario{
+    width:40%;
+    padding: 2%;
+    background-color: #E6E6E6;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    border-radius: 5%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.link{
+    color:#474747;
+    margin-right: auto;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.link_container{
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content: flex-start; 
+}
+

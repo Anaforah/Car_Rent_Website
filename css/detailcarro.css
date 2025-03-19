@@ -1,0 +1,109 @@
+.contentor_geral {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+}
+.Container_Left,
+.Contentor_Right {
+    width: 50%; /* Cada contêiner ocupa 50% da largura */
+    display: flex;
+    flex-direction: column; /* Garantir alinhamento interno consistente */
+    margin-left:5%;
+    margin-right:5%;
+}
+
+/* Ajuste adicional para manter os contêineres alinhados em altura */
+.Container_Left, .Contentor_Right {
+    min-height: 100%; /* Ajuste se necessário para um mínimo de altura consistente */
+}
+
+.contentor_geral {
+    align-items: stretch; /* Estica ambos os lados para igualar em altura */
+}
+
+.table caption-top{
+    background-color: #E6E6E6;
+    border-radius: 27px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    width:95%;
+}
+
+.table td, .table th {
+    text-align: center; /* Centraliza horizontalmente */
+    vertical-align: middle; /* Centraliza verticalmente */
+}
+
+.table > tbody > tr > td,
+.table > thead > tr > th {
+    border-color: #818181; /* Cor personalizada */
+}
+
+.rolagem{
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+    box-sizing: content-box;
+}
+
+
+.Contentor_Reservas{
+    width:90%;
+    margin:auto;
+}
+
+.preco{
+    display: flex; /* Ativa o flexbox */
+    align-items: center;
+    width:fit-content;
+    padding:15px;
+    background-color: #1E589E;
+    color:#F7F7F7;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.preco>strong{
+    font-size: 24px;
+    margin-right:5px;
+}
+
+.alterarprecobutton{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #474747;
+    text-decoration: underline;
+    background-color: #FBFBFB;
+    outline: none;
+    border: none;
+}
+
+.form{
+    display:inline-block;
+}
+
+.form>input{
+    width:fit-content;
+}
+
+.especificacoes>strong{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 400;
+    padding:5px;
+}
+
+.especificacoes>p{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 300;
+    padding:5px;
+    margin:0;
+}
+
+.especificacoes{
+    display: flex; /* Usando flexbox para alinhar os itens em linha */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    margin-bottom:10px;
+}

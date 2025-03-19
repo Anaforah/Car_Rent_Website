@@ -1,0 +1,23 @@
+.form-inline {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos do formulário em bloco */
+    gap: 20px; /* Espaçamento entre os blocos */
+}
+
+.formcontainer {
+    display: flex; /* Mantém os inputs e o botão em linha */
+    justify-content: space-between; /* Espaça os elementos dentro da formcontainer */
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 10px; /* Espaçamento entre os inputs */
+    width: 100%; /* Garante que ocupe toda a largura */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Rótulos acima dos inputs */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    flex: 1; /* Permite que os inputs se expandam igualmente */
+}
+
+

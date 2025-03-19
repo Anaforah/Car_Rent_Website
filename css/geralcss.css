@@ -1,0 +1,84 @@
+html {
+    background-color: #FBFBFB;
+}
+
+body {
+        margin: 0; /* Remove margens padrão */
+        font-family: "Poppins", sans-serif;
+    }
+
+    .Nav{
+        width:95%;
+        align-items: center;
+        background-color: #E6E6E6;
+        border-radius: 27px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left:auto;
+        margin-right: auto;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .Principal_Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Garante que ocupa a altura da tela */
+        width: 100%;
+    }
+
+    .FormLabel>input::placeholder{
+        font-weight: 600;
+        font-size: 16px;
+        color:#474747;
+
+    }
+
+    .FormLabel>input{
+        width:80%;
+        background-color:#E6E6E6;
+        border-radius: 0;
+        outline:none;
+        border:none;
+        border-bottom: 3px solid #474747;
+        padding-top:10px;
+        padding-bottom:10px;
+
+    }
+
+    .Botao{
+        all: unset;
+        font-weight: 600;
+        font-size: 24px;
+
+        width:50%;
+        height:10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #1B1B1B;
+        border-radius: 15px;
+        color:#E6E6E6;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+        margin-bottom: 10px;
+    }
+
+    h2{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        padding:2%;
+    }
+
+    h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 46px;
+        padding:5px;
+    }
+
+    .paragraph{
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        margin:0;
+    }

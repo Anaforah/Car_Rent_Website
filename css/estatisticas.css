@@ -1,0 +1,54 @@
+.h3container {
+    display: inline-block; /* Garante que o padding funcione corretamente */
+    padding: 10px 20px; /* Ajuste para garantir um espaçamento consistente */
+    border-radius: 999px;
+    font-weight: 600;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    background-color: #F0F0F0; /* Opcional para destacar */
+    margin-bottom: 50px; /* Espaço entre os h3 */
+}
+
+#id1 {
+    background-color: #F8E8BE;
+}
+
+#id2 {
+    background-color: #FFC0C0;
+}
+
+#id6 {
+    background-color: #C6C4FF;
+}
+
+#id3 {
+    background-color: #E2CCB8;
+}
+
+#id4 {
+    background-color: #FFA4CF;
+}
+
+#id5 {
+    background-color: #D2E7CC;
+}
+
+.estatisticas_container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.alignright {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.alignleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
